@@ -3,40 +3,65 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="src/style.css" />
     <title>My Weather App</title>
   </head>
   <body>
-    <header>
-      <form>
-        <input type="search" placeholder="Enter a city..." required />
-        <input type="submit" value="Search" />
-      </form>
-    </header>
-    <main>
-      <div>
-        <h1>Paris</h1>
-        <p>
-          Wednesday 9:20, clear sky
-          <br />
-          Humidity: 73%, Wind: 3.6km/h
-        </p>
-      </div>
-      <div>
-        <p>☀️ 22°C</p>
-      </div>
-    </main>
-    <footer>
-      This project was coded by
-      <a href="https://github.com/projectklaudia" target="_blank"
-        >Klaudia Grzyb</a
-      >, and it is on
-      <a href="https://github.com/projectklaudia/my-weather-app" target="_blank"
-        >GitHub</a
-      >
-      , hosted by
-      <a href="https://the-coolest-weather-app.netlify.app/" target="_blank"
-        >Netlify
-      </a>
-    </footer>
+    <div class="weather-app">
+      <header>
+        <form class="search-form" id="" search-form>
+          <input
+            class="search-form-input"
+            id="search-form-input"
+            type="search"
+            placeholder="Enter a city..."
+            required
+          />
+          <input
+            class="search-form-button"
+            id="search-form-button"
+            type="submit"
+            value="Search"
+          />
+        </form>
+      </header>
+      <main>
+        <div class="weather-app-data" id="weather-app-data">
+          <div>
+            <h1 class="weather-app-city" id="weather-app-city">Paris</h1>
+            <p class="weather-app-details">
+              <span class="time" id="time">Wednesday 9:20</span>,
+              <span class="description" id="descriptiom">clear sky</span>
+              <br />
+              Humidity: 73%, Wind: 3.6km/h
+            </p>
+          </div>
+          <div>
+            <p>☀️22°C</p>
+          </div>
+        </div>
+      </main>
+      <footer>
+        This project was coded by
+        <a href="https://github.com/projectklaudia" target="_blank"
+          >Klaudia Grzyb</a
+        >, and it is on
+        <a
+          href="https://github.com/projectklaudia/my-weather-app"
+          target="_blank"
+          >GitHub</a
+        >
+        , hosted by
+        <a href="https://the-coolest-weather-app.netlify.app/" target="_blank"
+          >Netlify
+        </a>
+      </footer>
+    </div>
   </body>
 </html>

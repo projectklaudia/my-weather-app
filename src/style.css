@@ -1,0 +1,32 @@
+.weather-app {
+  max-width: 600px;
+  margin: 45px auto;
+  background-color: aliceblue;
+  border-radius: 8px;
+  padding: 30px;
+  box-shadow: 0 30px 50px rgba(65, 50, 100, 0.08);
+  font-family: "Roboto Mono", monospace;
+}
+
+header {
+  margin-bottom: 50px;
+  border-bottom: 20px;
+}
+.search-form-input {
+  border: none;
+  width: 80%;
+  background-color: white;
+  font-size: 16px;
+  padding: 15px 25px;
+  border-radius: 6px;
+  margin-right: 5px;
+}
+.search-form-button {
+  border: none;
+  background-color: white;
+  color: pink;
+  font-size: 16px;
+  width: 15%;
+  border-radius: 6px;
+  padding: 15px;
+}
