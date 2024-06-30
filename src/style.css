@@ -44,28 +44,41 @@ main {
 }
 .weather-app-city {
   color: aqua;
+  margin: 0;
+  font-size: 38px;
+  line-height: 48px;
 }
 
 .weather-app-details {
-  color: blueviolet;
+  color: rgba(0, 0, 0, 0.5);
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 500;
 }
+.weather-app-details strong {
+  color: blue;
+}
+
 .weather-app-temperature-container {
   display: flex;
-  justify-content: space-around;
   color: brown;
 }
 
-.icon {
-  color: yellow;
-  font-size: 100px;
+.weather-app-icon {
+  color: black;
+  font-size: 80px;
+  margin-top: 10px;
+  margin-left: 50px;
 }
 
-.temperature {
-  font-size: 40px;
+.weather-app-temperature {
+  font-size: 80px;
+  font-weight: bold;
 }
 
-.unit {
-  font-size: 20px;
+.weather-app-unit {
+  font-size: 28px;
+  margin-top: 30px;
 }
 
 footer {
